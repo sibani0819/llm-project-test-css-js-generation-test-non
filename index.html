@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <meta name="description" content="A simple and modern Todo application.">
+    <meta name="keywords" content="todo, task, list, javascript, html, css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Todo List</h1>
+    </header>
+
+    <main>
+        <div class="todo-form">
+            <input type="text" id="new-todo" placeholder="Add a new task" aria-label="Add a new task">
+            <button id="add-todo">Add</button>
+        </div>
+
+        <ul id="todo-list" aria-label="List of todo items">
+            </ul>
+
+        <div id="message" role="alert"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Todo App</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
